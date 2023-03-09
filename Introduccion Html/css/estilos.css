@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0pc
+}
+
+.nombre{
+    text-align: center;
+    border: 15px solid black;
+    width: 600px;
+    margin: 20px;
+    margin-left: 400px;
+    background-color: aqua;
+    color: red;
+    text-shadow: 2px 5px 3px black;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+#back{
+    background: linear-gradient(to top left, red, greenyellow, blue);
+    height: 100%;
+}
