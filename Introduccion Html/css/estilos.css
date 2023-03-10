@@ -1,7 +1,12 @@
-/* *{
-    padding: 0px;
-    margin: 0px;
-} */
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario:rgba(255,193,7,1);
+    --secundario: #0097a7;
+    --gris: #757575;
+
+    --fuente-pincipal: 3.8rem;
+}
 
 html{
     font-size: 62.5%;
@@ -25,19 +30,18 @@ body{
     font-weight: bolder;
 }
 
-#back{
-    /* background: linear-gradient(to top left, red, greenyellow, blue); */
-    /* height: 100%; */
-    background-color: tan;
-}
+
 
 
 .titulo{
     text-align: center; 
-    font-size: 3.8rem;
+    font-size: var(--fuente-pincipal);
+    color: var(--primario);
 }
 
 
-.titulo span{
+.titulo span {
     font-size: 2rem;
 }
+
+
