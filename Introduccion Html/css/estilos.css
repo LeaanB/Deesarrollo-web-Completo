@@ -31,7 +31,15 @@ body{
 }
 
 
+.contenedor {
+    width: 120rem;
+    /* margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto; */
 
+    margin: 0 auto;
+}
 
 .titulo{
     text-align: center; 
@@ -44,4 +52,16 @@ body{
     font-size: 2rem;
 }
 
+
+.nav-bg {
+    background-color: var(--secundario);
+}
+
+.navegacion-principal{
+    
+}
+
+.navegacion-principal a{
+        background-color: var(--primario);
+}
 
