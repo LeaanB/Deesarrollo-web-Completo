@@ -26,6 +26,15 @@ body{
     background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
 }
 
+.sombra{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
+    box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
 h1{
     font-size: 3.8rem;
 }
@@ -119,6 +128,7 @@ h1,h2,h3{
     height: 410px;
     /* padding: 20px; */
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .contenido-Hero{
