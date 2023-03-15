@@ -156,5 +156,15 @@ h1,h2,h3{
 
 
 
+/* servicios */
+
+@media (min-width: 768px) {
+    .servicios {
+        display: grid;
+        /* grid-template-columns: 33.33% 33.33% 33.33%; */
+        grid-template-columns: repeat(3,1fr);  
+    }
+}
+
 
 
